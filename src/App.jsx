@@ -43,7 +43,6 @@ const App = () => {
       </form>
       <div className="">
         <div>
-          
           {list.length !== 0 ? (
             list.map((element, index) => (
               <div
@@ -70,9 +69,7 @@ const App = () => {
               </div>
             ))
           ) : (
-            <div>
-              
-            </div>
+            <div></div>
           )}
         </div>
       </div>
